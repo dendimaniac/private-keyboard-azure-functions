@@ -2,7 +2,7 @@ module.exports = async function (context, req) {
   console.log(req.body);
 
   return {
-    target: "newCheckRadio",
+    target: "selectRadioGroup",
     arguments: [req.body],
   };
 };
