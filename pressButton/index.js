@@ -2,7 +2,7 @@ module.exports = async function (context, req) {
   console.log(req.body);
 
   return {
-    target: "takePicture",
+    target: "pressButton",
     arguments: [req.body],
   };
 };
